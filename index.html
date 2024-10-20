@@ -14,17 +14,21 @@
         }
         header {
             background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 20px 0;
+            padding: 0; /* Usuń domyślne odstępy */
+        }
+        header img {
+            width: 100%; /* Szerokość na 100% */
+            height: auto; /* Zachowaj proporcje */
+            max-height: 300px; /* Ustaw maksymalną wysokość dwa razy większą niż poprzednio */
         }
         nav {
-            background-color: #555;
+            background-color: #fff; /* Zmieniamy kolor tła na biały */
             padding: 15px;
             text-align: center;
         }
         nav a {
-            color: #fff;
+            color: #333; /* Zmieniamy kolor tekstu w nawigacji na ciemniejszy */
             text-decoration: none;
             margin: 0 15px;
             font-size: 18px;
@@ -60,8 +64,7 @@
 </head>
 <body>
     <header>
-        <h1>Daw-Bud</h1>
-        <p>Profesjonalne wykończenia wnętrz na najwyższym poziomie</p>
+        <img src="IMG_0129.JPG" alt="DAW-BUD Logo - Sufity, Ściany, Podłogi">
     </header>
 
     <nav>
@@ -105,3 +108,4 @@
     </footer>
 </body>
 </html>
+
